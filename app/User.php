@@ -12,7 +12,7 @@ class User extends Authenticatable
 
     //대량 할당
     protected $fillable = [
-        'userId', 'name', 'email', 'password',
+        'userid', 'name', 'email', 'password',
     ];
     //제한
     protected $hidden = [

@@ -130,9 +130,26 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required'=>'값 좀 넣어라!',
+            'max'=>'너무 값 많이 넣었다!',
         ],
+        'email' => [
+            'required'=>'값 좀 넣어라!',
+            'email'=>'이메일 형식 좀 마춰라!',
+            'max'=>'너무 값 많이 넣었다!',
+            'unique'=>'이미 누가 넣은 값이다!',
+        ],
+        'password' => [
+            'required'=>'값 좀 넣어라!',
+            'confirmed'=>'같은 비밀번호 넣어라!',
+            'min'=>'좀 더 길게 넣어라!'
+        ],
+        'userid' => [
+            'required'=>'값 좀 넣어라!',
+            'max'=>'너무 값 많이 넣었다!',
+        ],
+
     ],
 
     /*
