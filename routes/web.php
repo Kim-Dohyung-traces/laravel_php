@@ -13,7 +13,7 @@
 
 Route::resource('/articles', 'ArticlesController');
 Route::resource('/members', 'members');
-Route::resource('/programs', 'programs');
+Route::resource('/programs', 'ProgramController');
 
 Route::get('/', function () {
     return view('welcome');
